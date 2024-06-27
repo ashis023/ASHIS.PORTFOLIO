@@ -1,0 +1,39 @@
+.section__text__ash{
+   color: black;
+}
+.element span {
+    display: none;
+    line-height: 1;
+    font-weight: bolder;
+  }
+  
+  .element span.active {
+    display: inline;
+  }
+  
+  .element:after {
+    content: ".";
+    display: inline;
+    width: 6px;
+    text-indent: 0;
+    background: var(--col-icon);
+    animation: blink 0.3s infinite alternate;
+  }
+  .datawords{
+    white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashis | Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ashis Ranjan Behera</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+         <!-- <li><a href="#experience">Experience</a></li>-->
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ashis Ranjan Behera</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+         <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>-->
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.new.png" alt="Ashis profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ashis Ranjan Behera</h1>
+        <h2><p class="section__text__ash"><span style="display: inline;"> <span id="element" font-weight="bold"
+          data-words="Web Development, UI/UX, Graphic designer, programmer"></span>
+      </span></p></h2>
+        <p class="section__text__p2"><span id="element"></span></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.ashish.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='mailto:beheraashis094@gmail.com./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ashish-ranjan-2004-in/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ashis023'"
+          />
+          <img
+          src="./assets/square-instagram.svg"
+          alt="My Instagram profile"
+          class="icon"
+          onclick="location.href='https://www.instagram.com/___.ashis___/'"
+        />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="about.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BCA<br />N.C Autonomous<br />2022-2025</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Web Development <br />Udemy<br />Aug 2023 - Jan 2024</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             "Hi! I'm Ashis Ranjan Behera, Currenttly a BCA student at N.C Autonomous College & I'm from Jajpur".
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-container">
+      <div class="skills-bar">
+        <div class="bar">
+            <div class="info">
+                <span>HTML</span>
+            </div>
+            <div class="progrees-line html"><span></span></div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <span>CSS</span>
+            </div>
+            <div class="progrees-line css"><span></span></div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <span>JavaScript</span>
+            </div>
+            <div class="progrees-line javascript"><span></span></div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <span>react</span>
+            </div>
+            <div class="progrees-line react"><span></span></div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <span>UIUX</span>
+            </div>
+            <div class="progrees-line uiux"><span></span></div>
+        </div>
+    </div>
+  </div> 
+  <img
+  src="./assets/arrow.png"
+  alt="Arrow icon"
+  class="icon arrow"
+  onclick="location.href='./#projects'"
+/>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/calculator.ashis.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One<br><p>A Simple Calculator</p></h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ashis023/CODSOFT-calculator-app'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+                         
+                       <!--project 2-->
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Screenshot 2024-06-24 195938.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two<br><p>A Landing-page</p></h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ashis023/OIBSIP-Landingpage'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ashishlandingpage.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+                                     <!--project 3-->
+
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/temp.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three <br><p>A Temperature Converter</p></h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ashis023/OIBSIB-Temp-conv'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div> 
+               <!--project 4-->
+
+               <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/Screenshot 2024-06-24 195235.png"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Four <br><p>A Creative Portfolio</p></h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+        </div>
+      </div>
+      <img
+        src="arrow-up-solid.svg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#profile'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:beheraashis094@gmail.com">beheraashis094@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ashish-ranjan-2004-in/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Ashis Ranjan Behera. All Rights Reserved.</p>
+    </div>
+   </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'uiux.', 'Graphic designer.'],
+      typeSpeed: 60,
+      loop: true,
+    });
+  </script>
+  
+</body>
+  </body>
+</html>

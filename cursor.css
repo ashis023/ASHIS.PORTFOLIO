@@ -1,0 +1,40 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: white;
+    cursor: none;
+}*/
+.cursor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 1px solid#f09393;
+    z-index: 1;
+    pointer-events: none;
+    transition: .1s;
+}
+.cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 1px solid#e29797;
+    z-index: 1;
+    pointer-events: none;
+    transition: .15s;
+}
+.content:hover ~ .cursor2{
+    opacity: 0;
+}
+
